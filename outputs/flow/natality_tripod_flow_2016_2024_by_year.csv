@@ -1,0 +1,46 @@
+"year","stage_order","stage","n","excluded_from_previous_stage"
+2016,1,"All births",3956112,NA
+2016,2,"Previous cesarean",606259,3349853
+2016,3,"Singleton, cephalic, and term among previous cesarean births",496962,109297
+2016,4,"Exactly one previous cesarean",345223,151739
+2016,5,"Identifiable TOLAC outcome",81220,264003
+2017,1,"All births",3864754,NA
+2017,2,"Previous cesarean",598525,3266229
+2017,3,"Singleton, cephalic, and term among previous cesarean births",492991,105534
+2017,4,"Exactly one previous cesarean",340492,152499
+2017,5,"Identifiable TOLAC outcome",81649,258843
+2018,1,"All births",3801534,NA
+2018,2,"Previous cesarean",594872,3206662
+2018,3,"Singleton, cephalic, and term among previous cesarean births",490533,104339
+2018,4,"Exactly one previous cesarean",337237,153296
+2018,5,"Identifiable TOLAC outcome",84027,253210
+2019,1,"All births",3757582,NA
+2019,2,"Previous cesarean",583742,3173840
+2019,3,"Singleton, cephalic, and term among previous cesarean births",479431,104311
+2019,4,"Exactly one previous cesarean",329781,149650
+2019,5,"Identifiable TOLAC outcome",84729,245052
+2020,1,"All births",3619826,NA
+2020,2,"Previous cesarean",560294,3059532
+2020,3,"Singleton, cephalic, and term among previous cesarean births",459776,100518
+2020,4,"Exactly one previous cesarean",316585,143191
+2020,5,"Identifiable TOLAC outcome",82609,233976
+2021,1,"All births",3669928,NA
+2021,2,"Previous cesarean",562593,3107335
+2021,3,"Singleton, cephalic, and term among previous cesarean births",457885,104708
+2021,4,"Exactly one previous cesarean",317494,140391
+2021,5,"Identifiable TOLAC outcome",85126,232368
+2022,1,"All births",3676029,NA
+2022,2,"Previous cesarean",563980,3112049
+2022,3,"Singleton, cephalic, and term among previous cesarean births",458396,105584
+2022,4,"Exactly one previous cesarean",318764,139632
+2022,5,"Identifiable TOLAC outcome",88690,230074
+2023,1,"All births",3605081,NA
+2023,2,"Previous cesarean",553272,3051809
+2023,3,"Singleton, cephalic, and term among previous cesarean births",449343,103929
+2023,4,"Exactly one previous cesarean",314536,134807
+2023,5,"Identifiable TOLAC outcome",90620,223916
+2024,1,"All births",3638436,NA
+2024,2,"Previous cesarean",560392,3078044
+2024,3,"Singleton, cephalic, and term among previous cesarean births",454520,105872
+2024,4,"Exactly one previous cesarean",320518,134002
+2024,5,"Identifiable TOLAC outcome",94071,226447

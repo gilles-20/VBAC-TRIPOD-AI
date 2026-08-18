@@ -1,0 +1,6 @@
+"stage_order","stage","n","excluded_from_previous_stage"
+1,"All births",33589282,NA
+2,"Previous cesarean",5183929,28405353
+3,"Singleton, cephalic, and term among previous cesarean births",4239837,944092
+4,"Exactly one previous cesarean",2940630,1299207
+5,"Identifiable TOLAC outcome",772741,2167889

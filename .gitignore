@@ -1,0 +1,27 @@
+# Raw / derived person-level Natality data
+Nat20*/
+*.txt
+*.zip
+*.csv.gz
+harmonised/
+data/
+raw_data/
+
+# Model objects / potentially large derived objects
+*.rds
+*.RData
+*.rda
+
+# HPC / runtime
+*.out
+*.err
+slurm-*
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*~

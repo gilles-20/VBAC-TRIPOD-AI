@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release and associated article."
+title: "VBAC-TRIPOD-AI"
+type: software
+authors:
+  - family-names: "Lekelem Dongmo"
+    given-names: "Gilles Protais"
+    orcid: "https://orcid.org/0009-0001-0728-3715"
+version: 1.0.0
+date-released: 2026-08-18
+repository-code: "REPLACE_WITH_GITHUB_REPOSITORY_URL"
+abstract: "Reproducible analysis code for temporal evaluation, subgroup calibration, and decision-curve analysis of VBAC prediction models using U.S. Natality data, 2016-2024."
+license: MIT

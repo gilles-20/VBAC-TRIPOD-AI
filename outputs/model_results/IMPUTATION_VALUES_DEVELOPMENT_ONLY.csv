@@ -1,0 +1,12 @@
+"variable","method","value"
+"maternal_age","development_median",31
+"maternal_height_cm","development_median",162.56
+"prepregnancy_weight_kg","development_median",68.0388555
+"prepregnancy_bmi","development_median",26.1
+"total_prior_live_births","development_median",1
+"n_previous_cesareans","development_median",1
+"previous_preterm_birth_binary","development_mode",0
+"prepregnancy_diabetes_binary","development_mode",0
+"prepregnancy_hypertension_binary","development_mode",0
+"gestational_diabetes_binary","development_mode",0
+"gestational_hypertension_binary","development_mode",0
