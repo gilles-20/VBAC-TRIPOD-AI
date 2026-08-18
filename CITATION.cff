@@ -11,3 +11,4 @@ date-released: 2026-08-18
 repository-code: "https://github.com/gilles-20/VBAC-TRIPOD-AI"
 abstract: "Reproducible analysis code for temporal evaluation, subgroup calibration, and decision-curve analysis of VBAC prediction models using U.S. Natality data, 2016-2024."
 license: MIT
+doi: "10.5281/zenodo.21996391"
