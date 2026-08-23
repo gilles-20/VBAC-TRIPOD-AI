@@ -94,3 +94,40 @@ Code is released under the MIT License.
 ## Citation
 
 A versioned Zenodo DOI will be added after the GitHub `v1.0.0` release is archived.
+
+
+
+## Canonical manuscript reporting pipeline
+
+
+
+The canonical reporting script for the current manuscript is:
+
+
+
+`code/04_reporting/MAKE_VBAC_MANUSCRIPT_TABLES_FIGURES_PUBLICATION_OOF_FIXED_LEGEND.py`
+
+
+
+Development performance reported in Table 2 and the development AUC reported in Figure 4 are based on five-fold out-of-fold predictions from:
+
+
+
+`outputs/model_results/TABLE_INTERNAL_VALIDATION_5FOLD.csv`
+
+
+
+The combined race-neutral versus race/ethnicity-inclusive performance results used for manuscript reporting are available in:
+
+
+
+`outputs/model_results/TABLE_RACE_NEUTRAL_VS_RACE_INCLUSIVE_OVERALL.csv`
+
+
+
+Earlier reporting scripts and apparent-fit development outputs are retained for provenance only and should not be used to reproduce the manuscript's development performance estimates. In particular, the manuscript development estimates are based on five-fold out-of-fold predictions rather than predictions obtained by scoring the fitted development model on its own training data.
+
+
+
+The final 2022–2023 intermediate temporal evaluation and 2024 temporal test remain out-of-sample evaluations and are unchanged by this reporting correction.
+
