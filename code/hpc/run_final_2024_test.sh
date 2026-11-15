@@ -9,9 +9,10 @@
 
 set -euo pipefail
 
-BASE_DIR="/data/brussel/vo/000/bvo00010/vsc11778/AI_MORTALITY_Tom/TRIPOD-AI/us_birth_files"
+BASE_DIR="${VBAC_ROOT:?Set VBAC_ROOT to the project directory}/us_birth_files"
+REPO_DIR="${VBAC_ROOT}/VBAC-TRIPOD-AI"
 
-R_SCRIPT="${BASE_DIR}/VBAC_LOGISTIC_PROTOCOL_FROZEN_2026_08.R"
+R_SCRIPT="${REPO_DIR}/code/03_models/01_vbac_logistic_protocol_frozen.R"
 
 DATA_FILE="${BASE_DIR}/harmonised/model_ready/NATALITY_TOLAC_MODEL_READY_2016_2024.csv.gz"
 

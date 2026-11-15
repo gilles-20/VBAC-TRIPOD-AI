@@ -20,10 +20,7 @@ This script does not change analytical data or refit any model.
 from pathlib import Path
 import csv
 
-BASE_DIR = Path(
-    "/data/brussel/vo/000/bvo00010/vsc11778/"
-    "AI_MORTALITY_Tom/TRIPOD-AI/us_birth_files"
-)
+BASE_DIR = Path(os.environ["VBAC_ROOT"]) / "us_birth_files"
 
 SUPP_DIR = (
     BASE_DIR

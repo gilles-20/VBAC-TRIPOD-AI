@@ -25,3 +25,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *~
+
+# Allow the Python dependency manifest
+!/requirements.txt
+!/docs/reproducibility/R_package_versions.txt
+!/docs/reproducibility/R1_8_verification.txt

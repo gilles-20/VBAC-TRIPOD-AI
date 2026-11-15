@@ -66,10 +66,7 @@ import pandas as pd
 # 1. PATHS
 # ============================================================================
 
-BASE_DIR = Path(
-    "/data/brussel/vo/000/bvo00010/vsc11778/"
-    "AI_MORTALITY_Tom/TRIPOD-AI/us_birth_files"
-)
+BASE_DIR = Path(os.environ["VBAC_ROOT"]) / "us_birth_files"
 
 LATEST_RESULTS = (
     BASE_DIR

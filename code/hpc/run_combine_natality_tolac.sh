@@ -18,7 +18,8 @@ set -euo pipefail
 
 
 
-BASE_DIR="/data/brussel/vo/000/bvo00010/vsc11778/AI_MORTALITY_Tom/TRIPOD-AI/us_birth_files"
+BASE_DIR="${VBAC_ROOT:?Set VBAC_ROOT to the project directory}/us_birth_files"
+REPO_DIR="${VBAC_ROOT}/VBAC-TRIPOD-AI"
 
 
 
@@ -46,7 +47,7 @@ echo "============================================================"
 
 
 
-Rscript COMBINE_NATALITY_TOLAC.R
+Rscript "${REPO_DIR}/code/01_cohort/03_combine_natality_tolac_2016_2024.R"
 
 
 

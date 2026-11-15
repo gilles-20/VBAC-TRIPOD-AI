@@ -1,0 +1,7 @@
+R version: R version 4.5.1 (2025-06-13)
+pROC 1.19.0.1
+splines 4.5.1
+stats 4.5.1
+utils 4.5.1
+graphics 4.5.1
+data.table 1.18.4

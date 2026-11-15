@@ -50,7 +50,7 @@ The final reconstructed cohort exactly matched the analytical cohort (`N = 772,7
 
 - Development: 2016-2021
 - Intermediate temporal evaluation: 2022-2023
-- Final prespecified temporal test: 2024
+- Final temporal test: 2024
 - Race/ethnicity-inclusive model: post-hoc comparative/sensitivity analysis performed after review of the frozen race-neutral 2024 results.
 
 ## Repository structure
@@ -62,6 +62,7 @@ code/
   03_models/       frozen primary and post-hoc comparative models
   04_reporting/    manuscript figures and supplementary tables
   hpc/             VSC/Slurm execution wrappers
+  reviewer_sensitivity/ Reviewer 1 sensitivity analyses
 
 docs/              harmonisation documentation
 outputs/           small, non-identifiable analysis outputs
@@ -131,3 +132,42 @@ Earlier reporting scripts and apparent-fit development outputs are retained for 
 
 The final 2022–2023 intermediate temporal evaluation and 2024 temporal test remain out-of-sample evaluations and are unchanged by this reporting correction.
 
+
+## Project configuration
+
+Set the parent project directory before running analyses:
+
+    export VBAC_ROOT="/path/to/TRIPOD-AI"
+    export TRIPOD_ROOT="$VBAC_ROOT"
+
+The parent directory should contain `VBAC-TRIPOD-AI/`, `us_birth_files/`, and `REVIEWER_REVISION_2026/`.
+
+The VSC/Slurm wrappers in `code/hpc/` may require adaptation on other systems.
+
+## Prediction target and comparator
+
+The outcome is successful vaginal birth among individuals undergoing a trial of labour after cesarean (TOLAC). The models do not predict whether an individual will attempt TOLAC.
+
+The MFMU-compatible comparator uses a reduced predictor set available in Natality data and is not the complete clinical MFMU calculator.
+
+## Reproducibility limitations
+
+The 2024 evaluation is the final temporal test. Available provenance records do not independently establish prospective model locking before access to the 2024 data.
+
+The canonical manuscript reporting script is `code/04_reporting/MAKE_VBAC_MANUSCRIPT_TABLES_FIGURES_PUBLICATION_OOF_FIXED_LEGEND.py`.
+
+Development performance uses five-fold out-of-fold predictions. Reviewer sensitivity analyses and their verification records are provided in `code/reviewer_sensitivity/` and `docs/reproducibility/`.
+
+Saved-output comparisons do not establish independent, clean-environment, end-to-end reproduction.
+
+`run_pipeline.sh` documents execution order but does not automatically execute the full workflow.
+
+## Software environment
+
+Verified on VSC with R 4.5.1, pROC 1.19.0.1, data.table 1.18.4, and Python 3.13.1.
+
+Python package versions: NumPy 2.3.1, pandas 2.3.0, SciPy 1.16.0, matplotlib 3.10.3, openpyxl 3.1.5.
+
+See `requirements.txt` and `docs/reproducibility/R_package_versions.txt` for dependency records.
+
+VSC modules: `R-bundle-CRAN/2025.10-foss-2025a` and `matplotlib/3.10.3-gfbf-2025a`.

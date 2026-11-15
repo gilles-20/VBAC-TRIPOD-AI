@@ -80,7 +80,7 @@ if (is.na(YEAR) || !(YEAR %in% 2016:2024)) {
 
 
 
-BASE_DIR <- "/data/brussel/vo/000/bvo00010/vsc11778/AI_MORTALITY_Tom/TRIPOD-AI/us_birth_files"
+BASE_DIR <- file.path(Sys.getenv("VBAC_ROOT", unset = "."), "us_birth_files")
 
 
 

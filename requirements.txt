@@ -1,0 +1,10 @@
+# VBAC-TRIPOD-AI Python reporting dependencies
+# Verified on VSC with Python 3.13.1.
+# Tested with the foss/2025a software stack.
+# These are verified package versions, not a complete lockfile.
+
+numpy==2.3.1
+pandas==2.3.0
+scipy==1.16.0
+matplotlib==3.10.3
+openpyxl==3.1.5

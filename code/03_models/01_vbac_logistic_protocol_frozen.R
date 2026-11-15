@@ -35,10 +35,7 @@ options(scipen = 999)
 # USER SETTINGS
 # ============================================================================
 
-BASE_DIR <- paste0(
-  "/data/brussel/vo/000/bvo00010/vsc11778/",
-  "AI_MORTALITY_Tom/TRIPOD-AI/us_birth_files"
-)
+BASE_DIR <- file.path(Sys.getenv("VBAC_ROOT", unset = "."), "us_birth_files")
 
 DATA_FILE <- file.path(
   BASE_DIR,

@@ -1,0 +1,12 @@
+reviewer_comment	script	results_directory
+R1	code/reviewer_sensitivity/R1_10_baseline_only_sensitivity.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_1_R1_10_landmark_audit_FIXED.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_2_decision_curve_audit.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_3_nonlinearity_sensitivity.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_4_temporal_design_audit.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_5_cohort_selection_audit.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_6_bmi_only_comparison.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_6_collinearity_sensitivity.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_7_cv_imputation_missing_race_FIXED.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_8_paired_delong.R	See reviewer_output_inventory.tsv
+R1	code/reviewer_sensitivity/R1_9_subgroup_calibration.R	See reviewer_output_inventory.tsv

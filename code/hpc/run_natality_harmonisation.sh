@@ -28,11 +28,12 @@ set -euo pipefail
 
 
 
-BASE_DIR="/data/brussel/vo/000/bvo00010/vsc11778/AI_MORTALITY_Tom/TRIPOD-AI/us_birth_files"
+BASE_DIR="${VBAC_ROOT:?Set VBAC_ROOT to the project directory}/us_birth_files"
+REPO_DIR="${VBAC_ROOT}/VBAC-TRIPOD-AI"
 
 
 
-R_SCRIPT="${BASE_DIR}/extract_natality_vbac.R"
+R_SCRIPT="${REPO_DIR}/code/01_cohort/01_extract_natality_vbac_TRIPOD_flow.R"
 
 
 

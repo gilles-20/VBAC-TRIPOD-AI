@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 """
 VBAC NATALITY — PUBLICATION TABLES AND FIGURES
 
@@ -45,10 +46,7 @@ from matplotlib.ticker import PercentFormatter, MultipleLocator
 # 1. PATHS
 # ======================================================================
 
-BASE_DIR = Path(
-    "/data/brussel/vo/000/bvo00010/vsc11778/"
-    "AI_MORTALITY_Tom/TRIPOD-AI/us_birth_files"
-)
+BASE_DIR = Path(os.environ["VBAC_ROOT"]) / "us_birth_files"
 
 DATA_FILE = (
     BASE_DIR

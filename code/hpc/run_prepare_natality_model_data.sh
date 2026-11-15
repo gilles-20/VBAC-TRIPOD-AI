@@ -18,7 +18,8 @@ set -euo pipefail
 
 
 
-BASE_DIR="/data/brussel/vo/000/bvo00010/vsc11778/AI_MORTALITY_Tom/TRIPOD-AI/us_birth_files"
+BASE_DIR="${VBAC_ROOT:?Set VBAC_ROOT to the project directory}/us_birth_files"
+REPO_DIR="${VBAC_ROOT}/VBAC-TRIPOD-AI"
 
 
 
@@ -46,7 +47,7 @@ module load R-bundle-CRAN/2025.10-foss-2025a
 
 
 
-Rscript PREPARE_NATALITY_MODEL_DATA.R
+Rscript "${REPO_DIR}/code/02_qc_prep/02_prepare_natality_model_data.R"
 
 
 

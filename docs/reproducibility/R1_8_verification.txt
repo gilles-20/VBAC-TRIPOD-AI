@@ -1,0 +1,7 @@
+Analysis: R1.8 paired DeLong comparison
+Verification date: 2026-11-14
+Environment: R 4.5.1; pROC 1.19.0.1
+Test sample: 94071
+Original and reproduced CSV: byte-for-byte identical
+Status: PASS — same HPC environment
+Independent fresh-environment reproduction: not yet tested
